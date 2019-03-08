@@ -1,0 +1,45 @@
+2019-01-04  11:53:07.295 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer[line-86] - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/maven305/repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/F:/maven305/repo/com/tdunning/json/1.8/json-1.8.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-01-04  14:21:19.947 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer[line-86] - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/maven305/repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/F:/maven305/repo/com/tdunning/json/1.8/json-1.8.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-01-04  16:07:40.146 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer[line-86] - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/maven305/repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/F:/maven305/repo/com/tdunning/json/1.8/json-1.8.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-01-04  16:24:04.216 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer[line-86] - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/maven305/repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/F:/maven305/repo/com/tdunning/json/1.8/json-1.8.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-01-04  17:51:06.450 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer[line-86] - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/maven305/repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/F:/maven305/repo/com/tdunning/json/1.8/json-1.8.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+

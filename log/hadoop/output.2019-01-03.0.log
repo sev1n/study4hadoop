@@ -1,0 +1,150 @@
+2019-01-03  19:08:11.141 [main] INFO  com.tyyd.hadoop.HadoopApplication[line-50] - Starting HadoopApplication on joechen-PC with PID 12112 (F:\Java8\hadoop\target\classes started by Administrator in F:\Java8\hadoop)
+2019-01-03  19:08:11.155 [main] INFO  com.tyyd.hadoop.HadoopApplication[line-675] - No active profile set, falling back to default profiles: default
+2019-01-03  19:08:14.441 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[line-90] - Tomcat initialized with port(s): 8080 (http)
+2019-01-03  19:08:14.464 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[line-173] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03  19:08:14.483 [main] INFO  org.apache.catalina.core.StandardService[line-173] - Starting service [Tomcat]
+2019-01-03  19:08:14.483 [main] INFO  org.apache.catalina.core.StandardEngine[line-173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03  19:08:14.500 [main] INFO  org.apache.catalina.core.AprLifecycleListener[line-173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/lib/amd64;F:\app\Administrator\product\11.2.0\client_1\bin;F:\apache-maven-3.3.9\bin;E:\dev_tools\apache-ant-1.8.4\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\MySQL\MySQL Server 5.5\bin;F:\apache-maven-3.3.9\bin;D:\Program Files\TortoiseSVN\bin;D:\nodejs\;%ERLANG_HOME%\bin;D:\Program Files\PuTTY\;C:\Program Files (x86)\OpenVPN\bin;C:\Users\Administrator\AppData\Roaming\npm;F:\BaiduNetdiskDownload\eclipse;;.]
+2019-01-03  19:08:14.870 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][line-173] - Initializing Spring embedded WebApplicationContext
+2019-01-03  19:08:14.871 [main] INFO  org.springframework.web.context.ContextLoader[line-296] - Root WebApplicationContext: initialization completed in 3618 ms
+2019-01-03  19:08:15.169 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext[line-554] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'hiveOpController': Unsatisfied dependency expressed through field 'dataOpService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataOperateServiceImpl': Unsatisfied dependency expressed through field 'hiveDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.tyyd.hadoop.dao.HiveDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-01-03  19:08:15.173 [main] INFO  org.apache.catalina.core.StandardService[line-173] - Stopping service [Tomcat]
+2019-01-03  19:08:15.357 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[line-142] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-03  19:08:15.558 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter[line-42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field hiveDao in com.tyyd.hadoop.service.impl.DataOperateServiceImpl required a bean of type 'com.tyyd.hadoop.dao.HiveDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.tyyd.hadoop.dao.HiveDao' in your configuration.
+
+2019-01-03  19:09:34.518 [main] INFO  com.tyyd.hadoop.HadoopApplication[line-50] - Starting HadoopApplication on joechen-PC with PID 13264 (F:\Java8\hadoop\target\classes started by Administrator in F:\Java8\hadoop)
+2019-01-03  19:09:34.524 [main] INFO  com.tyyd.hadoop.HadoopApplication[line-675] - No active profile set, falling back to default profiles: default
+2019-01-03  19:09:37.425 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[line-90] - Tomcat initialized with port(s): 8080 (http)
+2019-01-03  19:09:37.441 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[line-173] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03  19:09:37.465 [main] INFO  org.apache.catalina.core.StandardService[line-173] - Starting service [Tomcat]
+2019-01-03  19:09:37.466 [main] INFO  org.apache.catalina.core.StandardEngine[line-173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03  19:09:37.487 [main] INFO  org.apache.catalina.core.AprLifecycleListener[line-173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/lib/amd64;F:\app\Administrator\product\11.2.0\client_1\bin;F:\apache-maven-3.3.9\bin;E:\dev_tools\apache-ant-1.8.4\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\MySQL\MySQL Server 5.5\bin;F:\apache-maven-3.3.9\bin;D:\Program Files\TortoiseSVN\bin;D:\nodejs\;%ERLANG_HOME%\bin;D:\Program Files\PuTTY\;C:\Program Files (x86)\OpenVPN\bin;C:\Users\Administrator\AppData\Roaming\npm;F:\BaiduNetdiskDownload\eclipse;;.]
+2019-01-03  19:09:37.790 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][line-173] - Initializing Spring embedded WebApplicationContext
+2019-01-03  19:09:37.791 [main] INFO  org.springframework.web.context.ContextLoader[line-296] - Root WebApplicationContext: initialization completed in 3183 ms
+2019-01-03  19:09:38.643 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[line-171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03  19:09:39.149 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[line-173] - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03  19:09:39.165 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool[line-173] - Using a shared selector for servlet write/read
+2019-01-03  19:09:39.203 [main] INFO  org.mortbay.log[line-67] - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+2019-01-03  19:09:39.247 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[line-204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03  19:09:39.256 [main] INFO  com.tyyd.hadoop.HadoopApplication[line-59] - Started HadoopApplication in 5.488 seconds (JVM running for 6.639)
+2019-01-03  19:09:56.683 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][line-173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03  19:09:56.683 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet[line-524] - Initializing Servlet 'dispatcherServlet'
+2019-01-03  19:09:56.693 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet[line-546] - Completed initialization in 9 ms
+2019-01-03  19:09:59.565 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource[line-106] - {dataSource-1} inited
+2019-01-03  19:09:59.696 [http-nio-8080-exec-2] ERROR o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet][line-175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.IncorrectResultSetColumnCountException: Incorrect column count: expected 1, actual 11] with root cause
+org.springframework.jdbc.IncorrectResultSetColumnCountException: Incorrect column count: expected 1, actual 11
+	at org.springframework.jdbc.core.SingleColumnRowMapper.mapRow(SingleColumnRowMapper.java:110)
+	at org.springframework.jdbc.core.RowMapperResultSetExtractor.extractData(RowMapperResultSetExtractor.java:94)
+	at org.springframework.jdbc.core.RowMapperResultSetExtractor.extractData(RowMapperResultSetExtractor.java:61)
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:679)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:763)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:829)
+	at com.tyyd.hadoop.dao.impl.OracleDaoImpl.getUsers(OracleDaoImpl.java:22)
+	at com.tyyd.hadoop.dao.impl.OracleDaoImpl$$FastClassBySpringCGLIB$$2068b03a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.tyyd.hadoop.dao.impl.OracleDaoImpl$$EnhancerBySpringCGLIB$$cbf8b107.getUsers(<generated>)
+	at com.tyyd.hadoop.service.impl.DataOperateServiceImpl.initUserData(DataOperateServiceImpl.java:24)
+	at com.tyyd.hadoop.controller.HiveOpController.initData(HiveOpController.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-03  19:17:52.289 [main] INFO  com.tyyd.hadoop.HadoopApplication[line-50] - Starting HadoopApplication on joechen-PC with PID 8948 (F:\Java8\hadoop\target\classes started by Administrator in F:\Java8\hadoop)
+2019-01-03  19:17:52.299 [main] INFO  com.tyyd.hadoop.HadoopApplication[line-675] - No active profile set, falling back to default profiles: default
+2019-01-03  19:17:55.419 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[line-90] - Tomcat initialized with port(s): 8080 (http)
+2019-01-03  19:17:55.441 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[line-173] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03  19:17:55.466 [main] INFO  org.apache.catalina.core.StandardService[line-173] - Starting service [Tomcat]
+2019-01-03  19:17:55.467 [main] INFO  org.apache.catalina.core.StandardEngine[line-173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03  19:17:55.483 [main] INFO  org.apache.catalina.core.AprLifecycleListener[line-173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/lib/amd64;F:\app\Administrator\product\11.2.0\client_1\bin;F:\apache-maven-3.3.9\bin;E:\dev_tools\apache-ant-1.8.4\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\MySQL\MySQL Server 5.5\bin;F:\apache-maven-3.3.9\bin;D:\Program Files\TortoiseSVN\bin;D:\nodejs\;%ERLANG_HOME%\bin;D:\Program Files\PuTTY\;C:\Program Files (x86)\OpenVPN\bin;C:\Users\Administrator\AppData\Roaming\npm;F:\BaiduNetdiskDownload\eclipse;;.]
+2019-01-03  19:17:55.704 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][line-173] - Initializing Spring embedded WebApplicationContext
+2019-01-03  19:17:55.704 [main] INFO  org.springframework.web.context.ContextLoader[line-296] - Root WebApplicationContext: initialization completed in 3310 ms
+2019-01-03  19:17:56.522 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[line-171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03  19:17:57.024 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[line-173] - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03  19:17:57.044 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool[line-173] - Using a shared selector for servlet write/read
+2019-01-03  19:17:57.074 [main] INFO  org.mortbay.log[line-67] - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+2019-01-03  19:17:57.105 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer[line-204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03  19:17:57.109 [main] INFO  com.tyyd.hadoop.HadoopApplication[line-59] - Started HadoopApplication in 5.549 seconds (JVM running for 6.672)
+2019-01-03  19:18:13.776 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][line-173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03  19:18:13.777 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet[line-524] - Initializing Servlet 'dispatcherServlet'
+2019-01-03  19:18:13.785 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet[line-546] - Completed initialization in 8 ms
+2019-01-03  19:18:17.078 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource[line-106] - {dataSource-1} inited
